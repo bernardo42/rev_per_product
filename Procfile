@@ -1,1 +1,1 @@
-web: gunicorn rev_per_product:app
+web: uwsgi uwsgi.ini
