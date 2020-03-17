@@ -3,7 +3,7 @@ import ast
 import numpy as np
 import json
 import os
-dataset = pd.read_csv('sales_transaction.csv')
+dataset = pd.read_csv('./sales_transaction.csv')
 """X = dataset.drop(['start_date','end_date','sales','customer', 'status'], axis=1)
 rev_per_product = X.groupby(['product'])['revenue'].sum().reset_index()"""
 
