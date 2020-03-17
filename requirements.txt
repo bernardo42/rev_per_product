@@ -119,7 +119,7 @@ sphinxcontrib-serializinghtml==1.1.3
 spyder==4.0.1
 spyder-kernels==1.8.1
 tensorboard==2.1.0
-tensorflow==1.5.0
+tensorflow==1.15.2
 tensorflow-cpu==2.1.0
 tensorflow-estimator==2.1.0
 tensorflow-tensorboard==1.5.1
