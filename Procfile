@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn rev_per_product:app
