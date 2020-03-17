@@ -18,5 +18,4 @@ def rev_per_product():
         return Response(df, mimetype='application/json')
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 33507))
-    app.run(host='0.0.0.0',port=port)
+    app.run(host='0.0.0.0',port=5000)
